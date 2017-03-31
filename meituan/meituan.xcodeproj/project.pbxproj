@@ -14,6 +14,7 @@
 		F0E5F5411E8E45D50038E8BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0E5F5401E8E45D50038E8BB /* Assets.xcassets */; };
 		F0E5F5441E8E45D50038E8BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0E5F5421E8E45D50038E8BB /* LaunchScreen.storyboard */; };
 		F0E5F54F1E8E45D50038E8BB /* meituanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E5F54E1E8E45D50038E8BB /* meituanUITests.m */; };
+		F0E5F55B1E8E46570038E8BB /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E5F55A1E8E46570038E8BB /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		F0E5F54A1E8E45D50038E8BB /* meituanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meituanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0E5F54E1E8E45D50038E8BB /* meituanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = meituanUITests.m; sourceTree = "<group>"; };
 		F0E5F5501E8E45D50038E8BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0E5F5591E8E46570038E8BB /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		F0E5F55A1E8E46570038E8BB /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				F0E5F5381E8E45D50038E8BB /* AppDelegate.m */,
 				F0E5F53A1E8E45D50038E8BB /* ViewController.h */,
 				F0E5F53B1E8E45D50038E8BB /* ViewController.m */,
+				F0E5F5591E8E46570038E8BB /* Dog.h */,
+				F0E5F55A1E8E46570038E8BB /* Dog.m */,
 				F0E5F53D1E8E45D50038E8BB /* Main.storyboard */,
 				F0E5F5401E8E45D50038E8BB /* Assets.xcassets */,
 				F0E5F5421E8E45D50038E8BB /* LaunchScreen.storyboard */,
@@ -217,6 +222,7 @@
 			files = (
 				F0E5F53C1E8E45D50038E8BB /* ViewController.m in Sources */,
 				F0E5F5391E8E45D50038E8BB /* AppDelegate.m in Sources */,
+				F0E5F55B1E8E46570038E8BB /* Dog.m in Sources */,
 				F0E5F5361E8E45D50038E8BB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
